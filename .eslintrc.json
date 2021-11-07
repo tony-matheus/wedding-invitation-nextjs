@@ -1,3 +1,30 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["airbnb", "plugin:prettier/recommended", "next/core-web-vitals"],
+  "plugins": ["prettier", "react-hooks"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "camelcase": [1, { "ignoreDestructuring": true, "properties": "never" }],
+    "consistent-return": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "jsx-a11y/label-has-for": 0,
+    "react/jsx-uses-react": 1,
+    "react/react-in-jsx-scope": 0,
+    "import/prefer-default-export": 0,
+    "no-underscore-dangle": 0,
+    "no-unused-expressions": [
+      1,
+      { "allowShortCircuit": true, "allowTernary": true }
+    ],
+    "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
+    "react-hooks/rules-of-hooks": "warn",
+    "no-unused-vars": "warn",
+    "no-debugger": "warn"
+  }
 }

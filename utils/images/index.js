@@ -1,0 +1,8 @@
+export { default as Flower } from './flower.png'
+export { default as BigSplash } from './bigSplash.png'
+export { default as BigSplashOutline } from './bigSplashOutline.png'
+export { default as SmallSplash } from './smallSplash.png'
+export { default as SmallSplashOutline } from './smallSplashOutline.png'
+export { default as Welcome } from './WelcomePage.png'
+export { default as Mountain } from './Flag 03.svg'
+export { default as WhatsApp } from './WhatsApp.svg.png'
